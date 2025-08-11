@@ -4,6 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
         Book crime = new Book("Crime","Den Maxwell", "1980");
-        Author author = new Author("Den", "Maxwell");
+        Author author = new Author("47645", "45646");
     }
 }

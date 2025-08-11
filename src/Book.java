@@ -10,19 +10,14 @@ public class Book {
         this.yearPublication = yearPublication;
     }
 
-    public String getTitle() {
-        return title;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public Author getAuthor() {
-        return author;
+    public void setAuthor(Author author) {
+        this.author = author;
     }
-
-    public int getPublicationYear() {
-        return yearPublication;
-    }
-
-    public void setPublicationYear(int yearPublication) {
+    public void setYearPublication (int yearPublication) {
         this.yearPublication = yearPublication;
     }
 }
