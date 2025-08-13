@@ -8,11 +8,11 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public String getFirstName(String firstName) {
-        return this.firstName;
+    public String getFirstName() {
+        return this.firstName = firstName;
     }
 
-    public String getLastName(String lastName) {
-        return this.lastName;
+    public String getLastName() {
+        return this.lastName = lastName;
     }
 }
