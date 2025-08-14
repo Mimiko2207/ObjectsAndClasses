@@ -12,5 +12,15 @@ public class Main {
         System.out.println("Книга " + crime.setTitle() + ". Автор " + author.getFirstName() + author.getLastName()+ ". Год публикации " + crime.setYearPublication());
         System.out.println("Книга " + crime2.setTitle() + ". Автор " + author2.getFirstName() + author2.getLastName()+ ". Год публикации " + crime2.setYearPublication());
 
+
+        System.out.println("Книга 1: " + crime);
+        System.out.println("Книга 2: " + crime2);
+
+        System.out.println("book1.equals(book2): " + crime.equals(crime2));
+
+
+        System.out.println("book1.hashCode(): " + crime.hashCode());
+
+
     }
 }
